@@ -48,6 +48,13 @@ header nav ul li a {
     font-size: 22px;
 }
 
+
+/* main body, encompasses all the sections */
+main {
+    /* background-image: url("./images/hero-bg1.png"); */
+}
+
+
 /* footer */
 footer {
     background: #008F11;
@@ -65,4 +72,10 @@ footer h2 {
 footer div {
     font-size: 24px;
     float: right;
+}
+
+/* this will give all the sections a consistent look */
+section {
+    padding: 75px;
+    background-image: url("./images/hero-bg1.png");
 }
