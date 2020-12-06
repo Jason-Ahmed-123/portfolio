@@ -2,11 +2,12 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     /* font */
-    color: #888;
+    color: #003B00;
     font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     /* font-family: Lato, Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; */
 }
@@ -14,20 +15,21 @@ body {
 /* apply styles to <header> */
 header {
     padding: 20px 35px;
-    background-color: black;
+    /* vampire black */
+    background-color: #0D0208;
 }
 
 header h1 {
     font-weight: lighter;
     font-size: 36px;
-    color: whitesmoke;
+    color: #00FF41;
     margin: 0;
     display: inline;
 }
 
 header a {
     text-decoration: none;
-    color: whitesmoke;
+    color: #00FF41;
 }
 
 header nav {
@@ -46,3 +48,21 @@ header nav ul li a {
     font-size: 22px;
 }
 
+/* footer */
+footer {
+    background: #008F11;
+    color: #0D0208;
+    width: 100%;
+    padding: 40px 35px;
+}
+
+footer h2 {
+    display: inline;
+    font-size: 30px;
+    margin: 0;
+}
+
+footer div {
+    font-size: 24px;
+    float: right;
+}
