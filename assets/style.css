@@ -55,6 +55,37 @@ main {
 }
 
 
+/* Hero Style Start */
+.hero {
+    background-image: url("./images/hero-bg1.png");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+/* Hero Style End */
+
+/* Photo Style Start */
+.hero-pic {
+    background-image: url("./images/selfie.jpeg");
+    width: 220px;
+    min-height: 330px;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+
+    border-style: solid;
+    border-width: 3px;
+    border-color: #024e76;
+
+    /* where the picture appears in the hero section */
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+}
+/* Photo style end */
+
 /* footer */
 footer {
     background: #008F11;
@@ -77,5 +108,4 @@ footer div {
 /* this will give all the sections a consistent look */
 section {
     padding: 75px;
-    background-image: url("./images/hero-bg1.png");
 }
