@@ -92,13 +92,13 @@ main {
     /* text-align: center; */
 }
 
-.intro h2 {
+.section-title {
     font-size: ;
     color: ;
     margin-bottom: 25px;
     padding: 0 100px 20px 0px;
-    border-bottom: 2px solid;
-    border-color: #00B300;
+    /* border-bottom: 1px solid;
+    border-color: #00B300; */
 }
 
 .intro p {
