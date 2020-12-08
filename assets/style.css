@@ -86,6 +86,28 @@ main {
 }
 /* Photo style end */
 
+
+/* About me style start */
+.intro {
+    /* text-align: center; */
+}
+
+.intro h2 {
+    font-size: ;
+    color: ;
+    margin-bottom: 25px;
+    padding: 0 100px 20px 0px;
+    border-bottom: 2px solid;
+    border-color: #00B300;
+}
+
+.intro p {
+    line-height: 1.7;
+    color: ;
+    font-size: 20px;
+}
+
+
 /* footer */
 footer {
     background: #008F11;
