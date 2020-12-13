@@ -12,6 +12,19 @@ body {
     /* font-family: Lato, Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; */
 }
 
+
+/* generic utility classes */
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+/* generic utility classes end */
+
+
 /* apply styles to <header> */
 header {
     padding: 20px 35px;
@@ -63,6 +76,7 @@ main {
     background-position: center;
     position: relative;
 }
+
 /* Hero Style End */
 
 /* Photo Style Start */
@@ -84,6 +98,7 @@ main {
     bottom: 120px;
     right: 140px;
 }
+
 /* Photo style end */
 
 
@@ -101,11 +116,66 @@ main {
     border-color: #00B300; */
 }
 
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
+
 .intro p {
     line-height: 1.7;
     color: ;
     font-size: 20px;
 }
+
+/* About Me style ends */
+
+
+/* Portfolio styles start */
+.portfolio {
+    text-align: center;
+}
+
+.gallery {
+    width: 1100px;
+    margin: 0 auto 30px auto;
+    background: #003B00;
+    color: #00FF41;
+    overflow: auto;
+}
+
+/* screenshot sizes! */
+.gallery img {
+    width: 75%;
+    float: left;
+}
+
+.screenshot-info {
+    padding: 35px;
+    float: left;
+    width: 25%;
+}
+
+.screenshot-info h3 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.screenshot-info h4 {
+    font-weight: lighter;
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+.screenshot-info p {
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+/* Portfolio styles end */
+
 
 
 /* footer */
