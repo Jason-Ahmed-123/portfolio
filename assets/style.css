@@ -21,7 +21,6 @@ body {
 .text-right {
     text-align: right;
 }
-
 /* generic utility classes end */
 
 
@@ -35,14 +34,14 @@ header {
 header h1 {
     font-weight: lighter;
     font-size: 36px;
-    color: #00FF41;
+    color: #fff;
     margin: 0;
     display: inline;
 }
 
 header a {
     text-decoration: none;
-    color: #00FF41;
+    color: #fff;
 }
 
 header nav {
@@ -76,7 +75,6 @@ main {
     background-position: center;
     position: relative;
 }
-
 /* Hero Style End */
 
 /* Photo Style Start */
@@ -98,15 +96,10 @@ main {
     bottom: 120px;
     right: 140px;
 }
-
 /* Photo style end */
 
 
 /* About me style start */
-.intro {
-    /* text-align: center; */
-}
-
 .section-title {
     font-size: ;
     color: ;
@@ -129,20 +122,19 @@ main {
     color: ;
     font-size: 20px;
 }
-
 /* About Me style ends */
 
 
 /* Portfolio styles start */
 .portfolio {
-    text-align: center;
+    text-align: ;
 }
 
 .gallery {
     width: 1100px;
     margin: 0 auto 30px auto;
     background: #003B00;
-    color: #00FF41;
+    color: #fff;
     overflow: auto;
 }
 
@@ -173,9 +165,64 @@ main {
     font-size: 17px;
     line-height: 1.3;
 }
-
 /* Portfolio styles end */
 
+
+/* Contact styles start */
+.contact {
+    padding: 24px 35px;
+    background: #0D0208;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact h2 {
+    font-weight: 300;
+    margin: 0;
+    color: #fff;
+    font-size: 32px;
+    /* adjusts text position height inside footer */
+    line-height: 82px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact nav {
+    margin: 7px 0;
+}
+
+.contact nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.contact nav ul li {
+    color: #fff;
+    padding: 15px 15px;
+    font-weight: medium;
+    font-size: 1.55vw;
+}
+
+.contact nav ul li a {
+    padding: 15px 15px;
+    font-weight: medium;
+    font-size: 1.55vw;
+}
+
+.contact nav ul li a:hover {
+    background: #003B00;
+    color: #00FF41;
+    border-radius: 15px;
+    text-shadow: none;
+}
+/* Contact syles ends */
 
 
 /* footer */
@@ -183,12 +230,12 @@ footer {
     background: #008F11;
     color: #0D0208;
     width: 100%;
-    padding: 40px 35px;
+    padding: 18px 35px;
 }
 
 footer h2 {
     display: inline;
-    font-size: 30px;
+    font-size: 24px;
     margin: 0;
 }
 
