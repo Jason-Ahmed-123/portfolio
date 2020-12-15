@@ -80,7 +80,7 @@ main {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 20px 75px;
+    padding: 15px 75px;
 }
 /* Hero Style End */
 
@@ -249,8 +249,8 @@ main {
 
 /* footer */
 footer {
-    background: #008F11;
-    color: #0D0208;
+    background: #003B00;
+    color: #fff;
     width: 100%;
     padding: 18px 35px;
     display: flex;
@@ -269,5 +269,5 @@ footer div {
 
 /* this will give all the sections a consistent look */
 section {
-    padding: 75px;
+    padding: 50px;
 }
