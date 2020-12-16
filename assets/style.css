@@ -13,17 +13,6 @@ body {
 }
 
 
-/* generic utility classes */
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
-/* generic utility classes end */
-
-
 /* apply styles to <header> */
 header {
     padding: 20px 35px;
@@ -112,23 +101,15 @@ main {
     border-style: solid;
     border-width: 3px;
     border-color: #024e76;
-
-    /* where the picture appears in the hero section */
     position: relative;
-    /* bottom: 20px;
-    right: 120px; */
 }
 /* Photo style end */
 
 
 /* About me style start */
 .section-title {
-    font-size: ;
-    color: ;
     margin-bottom: 25px;
     padding: 0 100px 20px 0px;
-    /* border-bottom: 1px solid;
-    border-color: #00B300; */
 }
 
 .primary-border {
@@ -267,7 +248,22 @@ footer div {
     font-size: 24px;
 }
 
+
 /* this will give all the sections a consistent look */
 section {
     padding: 50px;
 }
+
+/* generic utility classes */
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.flex-row {
+    display: flex;
+}
+/* generic utility classes end */
