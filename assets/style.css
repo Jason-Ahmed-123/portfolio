@@ -274,6 +274,7 @@ section {
 .flex-row {
     display: flex;
 }
+
 /* generic utility classes end */
 
 
@@ -283,59 +284,78 @@ section {
     header {
         padding-bottom: 0;
         justify-content: center;
-      }
-    
-      header h1 {
-        width: 100%;
-        text-align: center;
-      }
-    
-      header nav ul {
-        margin-top: 20px;
-        width: 100%;
-        justify-content: center;
-      }
-    
-      header nav ul li a {
-        font-size: 20px;
-      }
-
-      .contact nav ul {
-        margin-top: 20px;
-        width: 100%;
-        justify-content: center;
-      }
-    
-      .contact nav ul li a {
-        font-size: 20px;
-      }
-
-      .hero-cta {
-        width: 100%;
-        text-align: center;
-      }
-
-      .section-title {
-        width: 80%;
-      }
-
-      .gallery {
-        flex: 0 100%;
-      }
-    
-      footer h2, footer div {
-        text-align: center;
-        width: 100%;
-      }
     }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+    }
+
+    .contact {
+        padding-bottom: 0;
+        justify-content: center;
+    }
+
+    .contact h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .contact nav ul li a {
+        font-size: 20px;
+    }
+
+    .hero-cta {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-title {
+        width: 80%;
+    }
+
+    .gallery {
+        flex: 0 100%;
+    }
+
+    footer h2,
+    footer div {
+        text-align: center;
+        width: 100%;
+    }
+}
 
 /* <768px - iPADS, TABLETS */
 @media screen and (max-width: 768px) {
-    
+    /* .hero-cta {
+        order: 2;
+    } */
 }
 
 /* <575px - MOBILE PHONES */
 @media screen and (max-width: 575px) {
-    
+    .intro p {
+        width: 100%;
+    }
+
+    .gallery {
+        flex: 0 100%;
+    }
 }
 /* MEDIA QUERIES END */
