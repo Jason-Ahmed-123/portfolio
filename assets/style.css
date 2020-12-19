@@ -7,9 +7,8 @@
 
 body {
     /* font */
-    color: #003B00;
+    color: #03254c;
     font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    /* font-family: Lato, Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; */
 }
 
 
@@ -68,22 +67,19 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    background: #003B00;
-    color: #00FF41;
+    background: #1167b1;
+    color: #d0efff;
     border-radius: 15px;
     text-shadow: none;
 }
 
-
 /* main body, encompasses all the sections */
-main {
-    /* background-image: url("./images/hero-bg1.png"); */
-}
-
+/* main {
+} */
 
 /* Hero Style Start */
 .hero {
-    background-image: url("./images/hero-bg1.png");
+    background-image: url("./images/hero-bg-1800x960.png");
     background-size: cover;
     background-position: center;
     position: relative;
@@ -102,7 +98,8 @@ main {
     text-align: right;
     margin: 3.5%;
     color: #fff;
-    font-size: 18px;
+    font-size: 24px;
+    text-shadow: 2px 2px #03254c;
     line-height: 1.2;
     padding: 50px 0 50px 0;
 }
@@ -111,8 +108,8 @@ main {
     font-style: italic;
     font-size: 45px;
     color: #fff;
+    text-shadow: 2px 2px #03254c;
 }
-
 /* hero section blurb ends */
 
 /* Photo Style Start */
@@ -128,6 +125,9 @@ main {
     position: relative;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
     border-radius: 15px;
+    /* temporary text info */
+    color: #fff;
+    font-size: 24px;
 }
 /* Photo style end */
 
@@ -148,10 +148,8 @@ main {
 
 .about p {
     line-height: 1.7;
-    color: ;
     font-size: 20px;
 }
-
 /* About Me style ends */
 
 
@@ -162,11 +160,12 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    background: #d3d3d3;
 }
 
 .gallery {
     margin: 15px;
-    background: #003B00;
+    background-image: linear-gradient(to right, #03254c, #1167b1);
     color: #fff;
     flex: 1;
 }
@@ -194,7 +193,6 @@ main {
 .screenshot-info p {
     font-size: 17px;
 }
-
 /* Portfolio styles end */
 
 
@@ -248,40 +246,39 @@ main {
 }
 
 .contact nav ul li a:hover {
-    background: #003B00;
-    color: #00FF41;
+    background: #1167b1;
+    color:  #d0efff;
     border-radius: 15px;
     text-shadow: none;
 }
-
 /* Contact syles ends */
 
 
 /* footer */
 footer {
-    background: #003B00;
+    background-image: linear-gradient(to right, #03254c, #1167b1);
     color: #fff;
     width: 100%;
-    padding: 18px 35px;
+    padding: 15px 35px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
 footer h2 {
-    font-size: 24px;
+    font-size: 20px;
     margin: 0;
 }
 
 footer div {
-    font-size: 24px;
+    font-size: 20px;
 }
 
 
 /* this will give all the sections a consistent look */
 /* generic utility classes */
 section {
-    padding: 50px 75px;
+    padding: 40px 75px;
 }
 
 .text-left {
@@ -295,7 +292,6 @@ section {
 .flex-row {
     display: flex;
 }
-
 /* generic utility classes end */
 
 
@@ -305,7 +301,6 @@ section {
     header {
         padding-bottom: 0;
         justify-content: center;
-        position: relative;
     }
 
     header h1 {
@@ -343,7 +338,7 @@ section {
         font-size: 20px;
     }
 
-    .hero-cta {
+    .hero-brand {
         width: 100%;
         text-align: center;
     }
@@ -364,14 +359,24 @@ section {
 
 /* <768px - iPADS, TABLETS */
 @media screen and (max-width: 768px) {
-    /* .hero-cta {
-        order: 2;
-    } */
+    
 }
 
 /* <575px - MOBILE PHONES */
 @media screen and (max-width: 575px) {
-    .intro p {
+    section {
+        padding: 40px 25px;
+    }
+
+    header {
+        position: relative;
+    }
+
+    .hero-brand {
+        order: 2;
+    }
+
+    .about p {
         width: 100%;
     }
 

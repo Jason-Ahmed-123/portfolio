@@ -2,12 +2,12 @@
 
 ## Built With
 * HTML
-* CSS
+* CSS3
 
 ## Website
 to come..
 
 ## Contribution
-Made with ❤️ by Jason Ahmed
+Made by Jason Ahmed
 
 ### ©️2020 Jason Ahmed
