@@ -6,6 +6,8 @@
 }
 
 body {
+    /* blue-silver */
+    background-image: linear-gradient(to right, #B3CBE4, #FFFFFF, #D6D6D6);
     /* font */
     color: #03254c;
     font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -68,7 +70,7 @@ header nav ul li a {
 
 header nav ul li a:hover {
     background: #1167b1;
-    color: #d0efff;
+    color:  #d0efff;
     border-radius: 15px;
     text-shadow: none;
 }
@@ -128,7 +130,7 @@ header nav ul li a:hover {
     border-radius: 15px;
     /* temporary text info */
     color: #fff;
-    font-size: 24px;
+    font-size: 18px;
 }
 /* Photo style end */
 
@@ -161,7 +163,7 @@ header nav ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background: #d3d3d3;
+    background: #d0efff;
 }
 
 .gallery {
@@ -240,7 +242,6 @@ header nav ul li a:hover {
 }
 
 .contact nav ul li a {
-    color: #fff;
     padding: 15px 15px;
     font-weight: medium;
     font-size: 1.55vw;
