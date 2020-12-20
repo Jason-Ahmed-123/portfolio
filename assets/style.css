@@ -99,6 +99,7 @@ header nav ul li a:hover {
     margin: 3.5%;
     color: #fff;
     font-size: 24px;
+    font-weight: bolder;
     text-shadow: 2px 2px #03254c;
     line-height: 1.2;
     padding: 50px 0 50px 0;
