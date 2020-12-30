@@ -196,6 +196,18 @@ header nav ul li a:hover {
 .screenshot-info p {
     font-size: 17px;
 }
+
+/* Font Awesome GitHub icon */
+span {
+    font-family: "FontAwesome";
+    font-size: 32px;
+    color: #fff;
+    float: right;
+}
+
+span:hover {
+    color: #B3CBE4;
+}
 /* Portfolio styles end */
 
 
