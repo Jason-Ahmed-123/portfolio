@@ -190,7 +190,7 @@ header nav ul li a:hover {
 .screenshot-info h4 {
     font-weight: lighter;
     font-size: 22px;
-    margin-bottom: 15px;
+    padding-bottom: 15px;
 }
 
 .screenshot-info p {
@@ -198,14 +198,14 @@ header nav ul li a:hover {
 }
 
 /* Font Awesome GitHub icon */
-span {
+.fab {
     font-family: "FontAwesome";
     font-size: 32px;
     color: #fff;
     float: right;
 }
 
-span:hover {
+.fab:hover {
     color: #B3CBE4;
 }
 /* Portfolio styles end */
