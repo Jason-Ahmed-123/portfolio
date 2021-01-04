@@ -1,14 +1,14 @@
 # My Portfolio
 
 ## Screenshot
-https://user-images.githubusercontent.com/61637816/103572855-1c278880-4e82-11eb-834b-1921226fcbbd.png
+("https://user-images.githubusercontent.com/61637816/103573795-b2a87980-4e83-11eb-932d-e253c1702922.png")
 
 ## Built With
 * HTML
 * CSS3
 
 ## Website
-![image]https://jason-ahmed-123.github.io/portfolio/
+https://jason-ahmed-123.github.io/portfolio/
 
 ## Contribution
 Made by Jason Ahmed
