@@ -81,8 +81,8 @@ header nav ul li a:hover {
 
 /* Hero Style Start */
 .hero {
-    background-image: url("./images/hero-bg-1800x960.png");
-    /* background-image: url("./images/hero-bg2-2250x960.png"); */
+    /* background-image: url("./images/hero-bg-1800x960.png"); */
+    background-image: url("./images/hero-bg3-1920x960.jpg");
     background-size: cover;
     background-position: center;
     position: relative;
