@@ -82,6 +82,7 @@ header nav ul li a:hover {
 /* Hero Style Start */
 .hero {
     background-image: url("./images/hero-bg-1800x960.png");
+    /* background-image: url("./images/hero-bg2-2250x960.png"); */
     background-size: cover;
     background-position: center;
     position: relative;
@@ -173,6 +174,12 @@ header nav ul li a:hover {
 /* screenshot sizes! */
 .gallery img {
     width: 100%;
+}
+
+/* effect for when mousing over gallery images */
+.gallery img:hover {
+    transform: scale(0.96);
+    filter: grayscale(35%);
 }
 
 .screenshot-info {
